@@ -1,11 +1,7 @@
-<template>
-  <div id="nav">
-    <!-- <template v-for="i in 11">
-      <div :key="i">
-        <router-link :to="`/1.${i}`">{{`1.${i}`}} section</router-link>
-      </div>
-    </template> -->
-  </div>
+<template lang="pug">
+  #nav test
+    
+  
 </template>
 
 <script>
