@@ -1,6 +1,8 @@
 <template lang="pug">
-  #nav test
-    
+  #nav 
+    template(v-for="i in 11")
+      div(:key="i")
+        router-link(:to="`/1.${i}`") {{`1.${i} 章节`}}
   
 </template>
 
