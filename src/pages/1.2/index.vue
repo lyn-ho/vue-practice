@@ -1,5 +1,5 @@
 <template lang="pug">
-  div
+  page
     PersonalInfo(:phone-info='phoneInfo'
     :zip-code='zipCode'
     @change='val => (phoneInfo = val)'

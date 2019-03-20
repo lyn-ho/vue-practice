@@ -1,5 +1,5 @@
 <template lang="pug">
-  div
+  page
     a-tabs
       a-tab-pane.test1(key='props' tab='属性')
         Props(name='Hello Vue!'

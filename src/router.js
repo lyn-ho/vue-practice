@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/home.vue'
+import Home from './pages/home.vue'
 
 Vue.use(Router)
 
@@ -14,57 +14,57 @@ export default new Router({
     {
       path: '/1.1',
       name: 'Vue 三大核心概念（属性，事件，插槽）',
-      component: () => import('./views/1.1')
+      component: () => import('./pages/1.1')
     },
     {
       path: '/1.2',
       name: '双向绑定和单向数据流',
-      component: () => import('./views/1.2')
+      component: () => import('./pages/1.2')
     },
     {
       path: '/1.3',
       name: '虚拟 Dom',
-      component: () => import('./views/1.3')
+      component: () => import('./pages/1.3')
     },
     {
       path: '/1.4',
       name: '如何触发组件更新',
-      component: () => import('./views/1.4')
+      component: () => import('./pages/1.4')
     },
     {
       path: '/1.5',
       name: '合理应用计算属性和侦听器',
-      component: () => import('./views/1.5')
+      component: () => import('./pages/1.5')
     },
     {
       path: '/1.6',
       name: '生命周期的应用场景和函数式组件',
-      component: () => import('./views/1.6')
+      component: () => import('./pages/1.6')
     },
     {
       path: '/1.7',
       name: '指令的本质',
-      component: () => import('./views/1.7')
+      component: () => import('./pages/1.7')
     },
     {
       path: '/1.8',
       name: 'provie/inject',
-      component: () => import('./views/1.8')
+      component: () => import('./pages/1.8')
     },
     {
       path: '/1.9',
       name: '如何优雅的获取跨层级组件（拒绝递归）',
-      component: () => import('./views/1.9')
+      component: () => import('./pages/1.9')
     },
     {
       path: '/1.10',
       name: 'template 和 JSX 对比以及它们的本质',
-      component: () => import('./views/1.10')
+      component: () => import('./pages/1.10')
     },
     {
       path: '/1.11',
       name: '习题解答',
-      component: () => import('./views/1.11')
+      component: () => import('./pages/1.11')
     },
   ],
 
